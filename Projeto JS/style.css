@@ -1,0 +1,24 @@
+#linha1, #linha2, #linha3, #jogadorDaVez, #jogadorDV{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8, #cell9 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+#cell1:hover, #cell2:hover, #cell3:hover, #cell4:hover, #cell5:hover, #cell6:hover, #cell7:hover, #cell8:hover, #cell9:hover {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    background: aqua
+    
+}
+#celula{
+    text-align: center;
+    border: 1px solid red;
+    place-content: center;
+    align-content: center;
+}
